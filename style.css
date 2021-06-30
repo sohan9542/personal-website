@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --primary-clr: #EC4C7A;
+}
+
+h1{
+    font-size: 40px;
+}
+.color{
+    color: var(--primary-clr);
+    font-size: 45px;
+}
+section{
+    padding: 50px 0;
+}
+.hero{
+    background-image: url(image/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .my-info{
+    width: 45%;
+}
+.hero .my-pic{
+    width:40%;
+}
+p{
+    color: rgb(39, 38, 38);
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color: var(--primary-clr);
+    padding: .5rem 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* biographi */
+.biography{
+    background-image: url(image/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.biography .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bio-img{
+    width: 40%;
+}
+
+.bio-info{
+    width: 45%;
+}
+
+.bio-info p{
+    padding: .5rem 0;
+}
+/* latest work */
+.latest-work{
+    background-image: url(image/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.latest-work .work-container{
+    display: flex;
+    align-items: center;
+}
+.latest-work .work-container .single-work{
+    padding: 10px;
+}
+/* client */
+.client{
+    background-image: url(image/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.client-msg{
+    text-align: center;
+    margin: 0 auto;
+}
+.client-say{
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 40%;
+    font-size: 15px;
+
+}
+
+.leave-msg{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: var(--primary-clr);
+    color: white!important;
+    border-radius: 5px;
+}
+.leave-msg p{
+    color: white;
+}
+.leave-msg h1{
+    font-size: 25px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    margin-top: 100px;
+}
